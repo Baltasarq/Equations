@@ -28,4 +28,4 @@ def create(value):
     and value.isalpha()):
         return VbleComponent(value)
     else:
-        return ValueComponent(int(value))
+        return ValueComponent(float(value))
